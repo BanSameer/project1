@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap'); 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Spartan', sans-serif;
+}
+  
+body{position: absolute;
+    background-image: url(/img/pexels-max-vakhtbovych-6077368.jpg);
+}
+
+main {
+    height: fit-content;
+    width:fit-content;
+    background-color: hsl(0, 0%, 100%);
+margin: 75px;
+}
+section {
+    padding:50px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);text-align: left;
+}
+
+/* main topic */
+.maintopic {
+   
+   height: 275px;
+   float: left;
+   width: 50%;
+}
+.mainpara {
+    width:70% ;
+    padding-top: 8px;
+}
+
+/* reviews box on left */
+.reviews {
+  margin-top: 20px;
+  padding: 30px 70px;
+  box-shadow: 2px 2px 2px rgb(206, 202, 202);
+  /* background-color: hsl(333, 80%, 67%); */
+  background-color: hsl(332, 78%, 93%);
+  border-radius: 10px;
+  border-style: hidden;
+  
+}
+
+.reviews::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f005 \f005 \f005 \f005 \f005";
+  color: goldenrod;
+  letter-spacing: 8px;
+  font-size: large;
+}
+
+.stars {
+  /* background-color: antiquewhite; */ /* to be removed */
+  float: right;
+width:50% ;
+height:fit-content ;
+ /*  width: fit-content; */
+ /*  margin-right: 100px; */
+  
+}
+
+.reviews p {
+  text-align: right;
+  display: inline-block;
+  margin-left: 15px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  
+}
+
+.first {
+    margin-right: 150px;
+}
+.second {
+    margin-right: 70px;
+    margin-left: 90px;
+  
+}
+.third {
+    margin-left: 180px;
+    
+}
+
+
+
