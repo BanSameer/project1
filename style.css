@@ -1,71 +1,120 @@
-
-/*  ROOT ELEMENTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap'); 
-html {
-  min-width: 375px,
-  100vw;
-  max-width:1440px,100vw ;
-}
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Spartan', sans-serif;
-}
-  
-body{ position: absolute;
-    background-image: url(/img/pexels-max-vakhtbovych-6077368.jpg);
+  box-sizing: border-box;
 }
 
-main{ 
-    height: fit-content;
-    width:fit-content;
-    background-color: hsl(0, 0%, 100%);
-    margin:150px; 
-} 
-/* -------------------------------------------- */
-section {
-    padding:100px;
-}
-/* -----------UPPER HALF PART */
-#uppersection{
-height: 50%;
-display: inline-block;
+.left-div {
+  float: left;
+  width: 50%;
+  height: 280px;
 }
 
-
-h1 {
-    color: hsl(300, 43%, 22%);
-     margin-top: 20px;
+.right-div {
+  float: right;
+  width: 50%;
+  height: 280px;
+}
+.main-sec {
+  font-family: "Spartan", sans-serif;
+  color: #502050;
+  margin: 7.5% 5%;
+  height: 700px;
+  background: rgba(255, 255, 255, 0.493);
 }
 
-/* main topic */
-.maintopic {
-   height: 275px;
-   float: left;
-   width:fit-content;
-   font-size: 2rem;
-   margin-right: 55px;
+.main-topic {
+  width: 400px;
+  text-align: left;
+  font-size: 2rem;
+  justify-content: center;
 }
-.mainpara {
+
+.main-para {
+  margin-top: 15px;
+  width: 500px;
+  text-align: left;
+  color: #937b92;
   font-size: 1rem;
-    width:fit-content ;
-    padding-top: 15px;
-    font-weight: 500;
-color:hsl(303, 10%, 53%);
-  }
+  font-weight: 500;
+  justify-content: center;
+  line-height: 1.7;
+}
 
-/* reviews box on left */
+.testimonials-box {
+  border-radius: 10px;
+  background-color: #502050;
+  float: left;
+  height: 240px;
+  width: 380px;
+  color: white;
+  margin-right: 40px;
+}
+
+.box-1 {
+  margin-left: 50px;
+}
+
+.box-2 {
+  margin-top: 25px;
+}
+
+.box-3 {
+  margin-top: 50px;
+}
+.picture {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.info-text {
+  display: inline-block;
+}
+
+.info-text > h1 {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.info-text > h2 {
+  font-size: 0.7rem;
+  color: #ee68a4;
+  font-weight: 400;
+}
+
+.picture > img {
+  max-width: 45px;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.text {
+  font-size: 0.75rem;
+  width: 300px;
+  line-height: 2;
+  color: #f7f2f7;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.last {
+  display: block;
+  float: left;
+  margin-top: 75px;
+  height: 250px;
+  width: 100%;
+}
+
 .reviews {
-  width:500px;
+  width: 500px;
   margin-top: 20px;
   padding: 20px 30px 20px 25px;
   box-shadow: 2px 2px 2px rgb(206, 202, 202);
-  background-color:hsl(300, 24%, 96%)/* hsl(333, 24%, 93%) */;
+  background-color: hsl(300, 24%, 96%) /* hsl(333, 24%, 93%) */;
   border-radius: 10px;
-  border-style: hidden; 
+  border-style: hidden;
 }
 
 .reviews::before {
@@ -78,8 +127,8 @@ color:hsl(303, 10%, 53%);
 }
 
 .stars {
-float: right;  
-width:625px; 
+  float: right;
+  width: 625px;
 }
 
 .reviews p {
@@ -90,14 +139,11 @@ width:625px;
 }
 
 .first {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 .second {
-    margin-left: 60px; 
+  margin-left: 60px;
 }
 .third {
-    margin-left: 120px;  
+  margin-left: 120px;
 }
-
-/* ---------UPPER HALF------------------ */
-
