@@ -111,16 +111,16 @@ body {
   background-color: hsl(300, 43%, 22%);
   float: left;
   height: 240px;
-  width: 360px;
+  width: 400px;
   color: hsl(0, 0%, 100%);
 }
 
 .box-1 {
-  margin-right: 25px;
+  margin-right:3.7% ;
 }
 .box-2 {
   margin-top: 25px;
-  margin-right: 25px;
+  margin-right:3.7%;
 }
 
 .box-3 {
