@@ -110,17 +110,18 @@ body {
   border-radius: 10px;
   background-color: hsl(300, 43%, 22%);
   float: left;
-  height: 240px;
-  width: 400px;
+  height: 265px;
+  width: 430px;
   color: hsl(0, 0%, 100%);
+  
 }
 
 .box-1 {
-  margin-right:3.7% ;
+  margin-right:4.8% ;
 }
 .box-2 {
   margin-top: 25px;
-  margin-right:3.7%;
+  margin-right:4.8%;
 }
 
 .box-3 {
@@ -130,6 +131,7 @@ body {
 .picture {
   display: inline-block;
   padding: 2rem;
+
 }
 
 .info-text {
@@ -155,10 +157,12 @@ body {
 }
 
 .text {
-  font-size: 0.75rem;
-  width: 300px;
+  font-size: 0.9rem;
+  width: 320px;
   line-height: 2;
   color: hsl(0, 0%, 100%);
   font-weight: 400;
   margin-top: 25px;
+  margin-bottom: 25px;
+  
 }
